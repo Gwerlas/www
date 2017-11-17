@@ -1,0 +1,16 @@
+html, body, .global {
+	height: 100%;
+}
+
+.global {
+	display: flex;
+	align-items: center;
+}
+
+.global > .row {
+	width: 100%;
+}
+
+.global img {
+	border: none;
+}
