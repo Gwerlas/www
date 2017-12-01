@@ -1,16 +1,16 @@
-html, body, .global {
+html, body, .row {
 	height: 100%;
+	padding: 0;
+	margin: 0;
 }
 
-.global {
-	display: flex;
-	align-items: center;
-}
-
-.global > .row {
+.row {
+	display: table;
 	width: 100%;
 }
 
-.global img {
-	border: none;
+.col {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
 }
