@@ -1,16 +1,38 @@
-html, body, .row {
+html, body, div {
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 	height: 100%;
 	padding: 0;
 	margin: 0;
 }
 
-.row {
+div {
 	display: table;
 	width: 100%;
 }
 
-.col {
+figure {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
 }
+
+a {
+	text-decoration: none;
+}
+
+figcaption {
+	width: 120px;
+	margin: auto;
+	padding: 10px 5px;
+	text-align: center;
+	text-rendering: optimizeLegibility;
+	border-radius: 25px;
+	
+	color: #e0dfdc;
+
+	background-color: #989898;
+	letter-spacing: .1em;
+	text-shadow: 
+		-1px -1px 1px rgb(135, 135, 135), 
+		2px 2px 1px #a0a0a0;
+  }
